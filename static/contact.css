@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Css Variables */
+:root{
+    --navbar-height:59px;
+}
+/* Navbar */
+#navbar{
+    display: flex;
+    position: absolute;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(192, 23, 23);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* Logo and image */
+#logo{
+    margin: -15px -10px;
+
+}
+#logo img{
+    height: 59px;
+    margin: 20px 45px;
+
+}
+
+/* List */
+ul{
+    display: flex;
+}
+#navbar ul li{
+    color: black;
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 21px 0px;
+}
+#navbar ul li a{
+    
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#navbar ul{
+    margin: -1px 0px;
+}
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/salad-gbe839df1f_1920.jpg);
+    height: 400px;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: white;
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: brown;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+/* Services */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+   
+    margin: 3px 6px;
+    padding: 2px;
+    border-radius: 23px;
+    background-color: rgb(239 234 234);
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#client-section{
+   
+    
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(img/mozzarella-gf30688ea0_1920.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#clients{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#client-section img{
+    height: 97px;
+}
+#client-item{
+    padding: 30px;
+}
+
+#contact{
+    position: relative;
+    background: url(img/architecture-g386169a47_1920.jpg);
+    
+}
+/*  /#contact ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(img/architecture-g386169a47_1920.jpg);
+}*/
+footer{
+    background: black;
+    color: white;
+    padding: 0px 20px;
+    margin: -12px -2px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    margin: 12px 10px;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    
+    width: 30%;
+
+}
+#contact-box form{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#contact h1{
+    font-size: 2.8rem;
+}
+#contact h1{
+    color: cornflowerblue;
+    margin: 26px;
+}
+
+label{
+    color: crimson;
+}
+.logo {
+    width: 8%;
+    height: 73px;
+    margin-left: 20px;
+}

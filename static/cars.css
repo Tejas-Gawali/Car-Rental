@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.cars{
+    display: inline;
+}
+
+.carscontainer{
+    margin: 124px 230px;
+}
+h1{
+    margin: 16px 635px;
+    font-size: 46px;
+    color: white;
+}
+.card-body{
+    background-color: lavenderblush;
+}
+button{
+    margin: 0px 110px;
+    border-radius: 15%;
+}
+button:hover{
+    background-color: greenyellow;
+}
